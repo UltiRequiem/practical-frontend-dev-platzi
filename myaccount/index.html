@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Account | Yard Sale</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="../app.js"></script>
+  </head>
+  <body>
+    <div class="login">
+      <div class="form-container">
+        <h1 class="title">My Account</h1>
+
+        <form action="/" class="form">
+          <label for="name" class="label">Name</label>
+          <input
+            type="name"
+            placeholder="Pepe Juares"
+            id="pep"
+            class="input input-password"
+          />
+
+          <label for="email-addres" class="label">Email Address</label>
+          <input
+            type="email"
+            placeholder="pepe@juares.com"
+            id="email"
+            class="input input-password"
+          />
+
+          <label for="password-addres" class="label">Password</label>
+          <input
+            type="password"
+            placeholder="*******"
+            id="password"
+            class="input input-password"
+          />
+
+          <input
+            type="button"
+            onclick="hideContainer('.login')"
+            class="primary-btn login-btn"
+            value="Edit"
+          />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
