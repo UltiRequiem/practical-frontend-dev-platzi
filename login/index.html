@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | Yard Sale</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="../app.js"></script>
+  </head>
+  <body>
+    <div class="login">
+      <div class="form-container">
+        <img src="../assets/logo_yard_sale.svg" alt="Logo" class="logo" />
+
+        <form action="/" class="form">
+          <label for="email" class="label">Email Adress</label>
+          <input
+            type="email"
+            placeholder="example@example.com"
+            id="password"
+            class="input input-password"
+          />
+
+          <label for="new-password" class="label">Password</label>
+          <input
+            type="password"
+            placeholder="******"
+            id="new-password"
+            class="input input-password"
+          />
+
+          <input
+            type="button"
+            onclick="hideContainer('.login')"
+            class="primary-btn login-btn"
+            value="Confirm"
+          />
+
+          <a href="#">Forgot Password?</a>
+        </form>
+
+        <button class="secondary-btn signup-btn">Sign Up</button>
+      </div>
+    </div>
+  </body>
+</html>
