@@ -5,12 +5,6 @@ body {
 }
 
 .login {
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
-  );
   width: 100%;
   height: 100vh;
   display: grid;
@@ -18,9 +12,6 @@ body {
 }
 
 .form-container {
-  background: rgba(255, 255, 255, 0.7);
-  padding: 50px;
-  border-radius: 8px;
   display: grid;
   grid-template-rows: auto 1fr auto;
   width: 300px;
@@ -37,37 +28,6 @@ body {
   margin-bottom: 12px;
   text-align: center;
   font-size: var(--lg);
-}
-
-.subtitle {
-  color: var(--very-light-pink);
-  font-weight: 300;
-  margin-top: 0;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-.label {
-  font-size: var(--sm);
-  font-weight: bold;
-  margin-bottom: 4px;
-}
-
-.input {
-  background: var(--text-input-field);
-  border: none;
-
-  border-radius: 8px;
-  margin-bottom: 15px;
-
-  height: 30px;
-  font-size: var(--md);
-  padding: 6px;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
 }
 
 .primary-btn {
@@ -94,4 +54,24 @@ body {
   .logo {
     display: block;
   }
+}
+
+.email_image {
+  border-radius: 50%;
+  background-color: var(--text-input-field);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.email_image img {
+  height: 90%;
+  width: 35%;
+}
+
+.resend {
+  text-align: center;
+  color: var(--very-light-pink);
 }

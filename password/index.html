@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Password | Yard Sale</title>
     <link rel="stylesheet" href="main.css" />
-    <script src="app.js"></script>
+    <script src="../app.js"></script>
   </head>
   <body>
     <div class="login">
@@ -31,7 +31,12 @@
             class="input input-password"
           />
 
-          <input type="submit" onsubmit="return false" onclick="close()" value="Confirm" class="primary-btn login-btn" />
+          <input
+            type="button"
+            onclick="hideContainer('.login')"
+            class="primary-btn login-btn"
+            value="Confirm"
+          />
         </form>
       </div>
     </div>
