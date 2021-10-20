@@ -9,7 +9,26 @@ main {
 
   background: rgb(2, 0, 36);
 
+  margin: 0;
+
   font-size: 300%;
+}
+
+main h1 {
+  font-size: 250%;
+  background-image: linear-gradient(
+    to left,
+    yellow,
+    violet,
+    indigo,
+    blue,
+    green,
+    orange,
+    red
+  );
+
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 main section {
@@ -19,8 +38,6 @@ main section {
 main section ul li {
   list-style: none;
   text-decoration: none;
-
-  margin: 15px;
 }
 
 main section ul li::after {
