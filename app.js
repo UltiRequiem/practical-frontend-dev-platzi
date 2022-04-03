@@ -5,6 +5,6 @@ function hideContainer(container) {
 
   alert("Refresh the page to see the content again.");
 
-  console.log("Hello Javascript")
-  console.log(navigator.userAgent)
+  console.log("Hello Javascript");
+  console.log(navigator.userAgent);
 }

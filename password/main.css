@@ -85,8 +85,6 @@ body {
   border: none;
 }
 
-
-
 @media (max-width: 640px) {
   .logo {
     display: block;
